@@ -1,0 +1,42 @@
+body{
+    background-color:lightsteelblue;
+    margin:40px;
+}
+h1{color:#222;text-align: center;font-size: 35px;} 
+p{text-align: center; font-size: 20px;}
+nav{text-align: center;}
+nav a{margin:0 18px;padding: 8px;font-size: 25px;
+    font-weight: bold;color:rgba(255, 0, 255, 0.842);border-radius: 15px;
+}
+nav a:hover{color:rgba(255, 0, 255, 0.842);color:rgba(255,0,255,0.842)}
+h1:hover{text-decoration: underline;}
+hr{margin:30px auto;width:800px;border-top:2px solid black;}
+section{
+    background-color:white;width: 800px ;
+    margin:30px auto;padding:20px;border-radius: 20px;box-shadow: 0 4px 12px darkblue;
+}
+figure{
+    text-align: center;
+}
+figure img{border-radius: 50%;
+border:3px solid darkblue;}
+figure{font-size:20px;}
+section h2{ border-bottom:2px solid lightslategray ;padding-bottom:9px ;}
+article{ background-color:lightslategray;padding:18px; box-shadow: 0 3px 12px darkblue; border-left: 4px solid darkblue;
+    border-radius:10px; margin-bottom: 30px;transition:transform 10sec;}
+article.hover{ transform:translateX(16px);}
+h3{font-size: 30px;}
+details{margin-top:10px ;}
+summary{font-size:30px ; font-weight: bold;}
+a{text-decoration: none;}
+li{border-radius: 10px;
+   background-color:lightslategray;
+   padding: 15px;
+    margin:20px 0px 20px 0px;
+    font-size: medium;}
+    ul{list-style: none;}
+    ol{list-style: none;}
+    form{text-align: center;font-size: 15px;font-weight: bold;}
+    input,textarea{width:100%;padding:5px}
+    button{margin-left:20px; padding:8px;background-color: blue;color:white;font-weight: bold; border-radius: 10px;}
+    button:hover{background-color: blue ;}
